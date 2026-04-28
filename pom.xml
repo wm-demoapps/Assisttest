@@ -36,6 +36,7 @@
             </goals>
             <configuration>
               <sources>
+                <source>services/hrdb/src</source>
                 <source>services/randomuser/src</source>
                 <source>services/securityService/src</source>
               </sources>
