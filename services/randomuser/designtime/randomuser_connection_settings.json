@@ -1,0 +1,36 @@
+{
+  "endpointAddress" : "https://randomuser.me/api/",
+  "method" : "GET",
+  "headers" : { },
+  "redirectEnabled" : true,
+  "requestBody" : "",
+  "queryParams" : {
+    "results" : "5"
+  },
+  "authDetails" : null,
+  "contentType" : "application/json",
+  "multiParamInfoList" : [ ],
+  "urlBasePath" : "",
+  "sampleHttpResponseDetails" : {
+    "statusCode" : 200,
+    "headers" : {
+      "Date" : [ "Tue, 28 Apr 2026 07:17:28 GMT" ],
+      "Content-Type" : [ "application/json; charset=utf-8" ],
+      "Transfer-Encoding" : [ "chunked" ],
+      "Connection" : [ "keep-alive" ],
+      "Server" : [ "cloudflare" ],
+      "Nel" : [ "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}" ],
+      "X-Powered-By" : [ "Express" ],
+      "Access-Control-Allow-Origin" : [ "*" ],
+      "Cache-Control" : [ "no-cache" ],
+      "ETag" : [ "W/\"1587-Q4QCiXA2dX8X70YQSUpubTjz3BI\"" ],
+      "Vary" : [ "Accept-Encoding" ],
+      "cf-cache-status" : [ "DYNAMIC" ],
+      "Report-To" : [ "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=B5XfUAK5zIo9OARZ4aecE%2FPKd6qj59jOqMRe2z1L%2F8wVx0wS6Nn8SsDKh1E%2B%2BlS9SLm0hBph16qEG%2FB95vGf8kxBuOwEgl1Rw5PYnWjx9CUFzRpyz2s33Ss7Hp02zY3f\"}]}" ],
+      "CF-RAY" : [ "9f344995d983ad34-IAD" ],
+      "alt-svc" : [ "h3=\":443\"; ma=86400" ]
+    },
+    "responseBody" : "{\"results\":[{\"gender\":\"male\",\"name\":{\"title\":\"Mr\",\"first\":\"Harold\",\"last\":\"Kuhn\"},\"location\":{\"street\":{\"number\":9043,\"name\":\"Preston Rd\"},\"city\":\"Perth\",\"state\":\"Tasmania\",\"country\":\"Australia\",\"postcode\":664,\"coordinates\":{\"latitude\":\"-86.4526\",\"longitude\":\"-12.6526\"},\"timezone\":{\"offset\":\"-6:00\",\"description\":\"Central Time (US & Canada), Mexico City\"}},\"email\":\"harold.kuhn@example.com\",\"login\":{\"uuid\":\"683eaabe-adec-4536-976e-aba1b0a36577\",\"username\":\"happytiger705\",\"password\":\"idunno\",\"salt\":\"P16XtoAu\",\"md5\":\"3f3e7b41955a30a983c25fe91b778eda\",\"sha1\":\"bbe5044606b5daa5d18adaa5435cda689c942c72\",\"sha256\":\"cd54abaf3adab2021a76d23fbf67642d29fc8a94aced266ab0f5c6b90aa58711\"},\"dob\":{\"date\":\"1986-11-29T00:52:11.248Z\",\"age\":39},\"registered\":{\"date\":\"2015-08-16T07:17:36.542Z\",\"age\":10},\"phone\":\"07-0623-3445\",\"cell\":\"0415-795-493\",\"id\":{\"name\":\"TFN\",\"value\":\"889332773\"},\"picture\":{\"large\":\"https://randomuser.me/api/portraits/men/9.jpg\",\"medium\":\"https://randomuser.me/api/portraits/med/men/9.jpg\",\"thumbnail\":\"https://randomuser.me/api/portraits/thumb/men/9.jpg\"},\"nat\":\"AU\"}],\"info\":{\"seed\":\"c8a54cbb455063e2\",\"results\":5,\"page\":1,\"version\":\"1.4\"}}",
+    "convertedResponse" : null
+  }
+}

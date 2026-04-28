@@ -36,6 +36,7 @@
             </goals>
             <configuration>
               <sources>
+                <source>services/randomuser/src</source>
                 <source>services/securityService/src</source>
               </sources>
             </configuration>
